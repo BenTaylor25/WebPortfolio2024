@@ -12,9 +12,9 @@ for further back in my education history.
 ![image](https://github.com/BenTaylor25/WebPortfolio2024/assets/97246704/334a1bb6-3eca-461b-9117-901b6659d220)
 
 ### Mobile
-[mobile hero view]
+![image](https://github.com/BenTaylor25/WebPortfolio2024/assets/97246704/86ed8023-88f2-4a20-b353-19d4aad75daa)
 
-[mobile hamburger expanded view]
+![image](https://github.com/BenTaylor25/WebPortfolio2024/assets/97246704/2b17442e-c619-45b5-9680-3060cc198ea7)
 
 
 ## Main Page Vision - Bio
@@ -23,8 +23,7 @@ for further back in my education history.
 ![image](https://github.com/BenTaylor25/WebPortfolio2024/assets/97246704/9bfcfaf6-e0d5-4aad-8872-007ddcfea654)
 
 ### Mobile
-
-[mobile bio view]
+![image](https://github.com/BenTaylor25/WebPortfolio2024/assets/97246704/548951b6-63ac-4c0f-a461-d792d7877c7b)
 
 
 ## Main Page Vision - Work
@@ -33,8 +32,7 @@ for further back in my education history.
 ![image](https://github.com/BenTaylor25/WebPortfolio2024/assets/97246704/1d2cc456-2fa4-409b-a308-38d033212b7f)
 
 ### Mobile
-
-[mobile work view]
+![image](https://github.com/BenTaylor25/WebPortfolio2024/assets/97246704/52257881-9fb0-491d-8ae7-beb409103c1c)
 
 
 ## Main Page Vision - Projects
@@ -43,8 +41,7 @@ for further back in my education history.
 ![image](https://github.com/BenTaylor25/WebPortfolio2024/assets/97246704/a386962a-c60a-4f7a-a785-d9b0c43a771a)
 
 ### Mobile
-
-[mobile projects view]
+![image](https://github.com/BenTaylor25/WebPortfolio2024/assets/97246704/cb36309b-89f8-484f-8b10-f3c50b86530b)
 
 
 ## Main Page Vision - Education
@@ -53,5 +50,4 @@ for further back in my education history.
 ![image](https://github.com/BenTaylor25/WebPortfolio2024/assets/97246704/0d9c9fdf-0818-43e6-b396-b259a7ec81fc)
 
 ### Mobile
-
-[mobile education view]
+![image](https://github.com/BenTaylor25/WebPortfolio2024/assets/97246704/f3af1189-9178-4f81-b3a7-948802d3d71e)
