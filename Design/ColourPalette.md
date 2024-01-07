@@ -15,6 +15,7 @@ I used <a href="https://coolors.co/">Coolors</a> to generate a palette and
 <a href="https://www.realtimecolors.com/">Realtime Colors</a> to see how
 it might look.  
 This is what I came up with:
+![image](https://github.com/BenTaylor25/WebPortfolio2024/assets/97246704/a6916080-af8a-4148-843d-6a69fdbdd2d7)
 
 I'm not 100% sure it's going to work but I am going to  
 a. trust the process,  
