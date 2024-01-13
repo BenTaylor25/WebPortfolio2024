@@ -6,3 +6,17 @@ h1 {
   padding: 1rem;
   font-size: 3rem;
 }
+
+nav#hamburger {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+
+  .hamburger-line {
+    width: 26px;
+    height: 2px;
+    margin: 8px;
+    background-color: $theme-text;
+    position: relative;
+  }
+}
