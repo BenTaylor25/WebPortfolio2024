@@ -2,10 +2,15 @@
 <h1>Ben Taylor</h1>
 
 <!-- Mobile -->
-<nav id="hamburger">
-  <div class="hamburger-line"></div>
-  <div class="hamburger-line"></div>
-  <div class="hamburger-line"></div>
+<nav
+  id="hamburger"
+  (click)="toggleHamburger()"
+  [ngClass]="{'active': isHamburgerActive}">
+
+  <div class="hamburger-line" id="top"></div>
+  <div class="hamburger-line" id="middle"></div>
+  <div class="hamburger-line" id="bottom"></div>
+
 </nav>
 
 <nav>

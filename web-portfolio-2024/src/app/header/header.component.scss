@@ -18,5 +18,25 @@ nav#hamburger {
     margin: 8px;
     background-color: $theme-text;
     position: relative;
+
+    transition-duration: 1s;
+  }
+
+  &.active {
+    .hamburger-line#top {
+      transform:
+        translateY(10px)
+        rotate(225deg);
+    }
+
+    .hamburger-line#bottom {
+      transform:
+        translateY(-10px)
+        rotate(-225deg);
+    }
+
+    .hamburger-line#middle {
+      transform: scaleX(0);
+    }
   }
 }
