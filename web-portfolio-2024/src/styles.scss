@@ -1,10 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
-
-$theme-background: #0b2027;
-$theme-text: #f7f3e3;
-$theme-primary: #47b3ff;
-$theme-secondary: #1d7874;
-$theme-accent: #09bc8a;
+@import 'src/theme';
 
 body {
   width: 100vw;
