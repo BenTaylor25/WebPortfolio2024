@@ -1,14 +1,16 @@
 @import "src/theme";
 
 h1 {
+  z-index: 10;
   color: $theme-text;
   margin: 0;
   padding: 1rem;
   font-size: 3rem;
 }
 
-nav#hamburger {
+div#hamburger {
   position: absolute;
+  z-index: 10;
   cursor: pointer;
   top: 1.5rem;
   right: 1.5rem;
@@ -43,6 +45,33 @@ nav#hamburger {
 
     .hamburger-line#middle {
       transform: scaleX(0);
+    }
+  }
+}
+
+nav {
+  display: none;
+  &.active {
+    display: block;
+  }
+
+  position: absolute;
+  background-color: $theme-secondary;
+  z-index: 5;
+  top: 0;
+  width: 100vw;
+  height: 100dvh;
+
+  section {
+    margin-top: 25%;
+    height: 60%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    a {
+      font-size: 3rem;
     }
   }
 }
