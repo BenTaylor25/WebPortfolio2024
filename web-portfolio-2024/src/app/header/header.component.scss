@@ -1,6 +1,8 @@
 @import "src/theme";
 
 h1 {
+  position: fixed;
+  top: 0;
   z-index: 10;
   color: $theme-text;
   margin: 0;
@@ -9,7 +11,7 @@ h1 {
 }
 
 div#hamburger {
-  position: absolute;
+  position: fixed;
   z-index: 10;
   cursor: pointer;
   top: 1.5rem;
@@ -59,7 +61,7 @@ nav {
     transform: scaleX(1);
   }
 
-  position: absolute;
+  position: fixed;
   background-color: $theme-secondary;
   z-index: 5;
   top: 0;
@@ -67,6 +69,7 @@ nav {
   height: 100dvh;
 
   section {
+    position: fixed;
     margin-top: 5rem;
     height: 60%;
 
