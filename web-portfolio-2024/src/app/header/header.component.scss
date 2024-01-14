@@ -50,9 +50,13 @@ div#hamburger {
 }
 
 nav {
-  display: none;
+  overflow-x: hidden;
+  transform: scaleX(0);
+  transition: 1s;
+
   &.active {
     display: block;
+    transform: scaleX(1);
   }
 
   position: absolute;
@@ -63,7 +67,7 @@ nav {
   height: 100dvh;
 
   section {
-    margin-top: 25%;
+    margin-top: 5rem;
     height: 60%;
 
     display: flex;
