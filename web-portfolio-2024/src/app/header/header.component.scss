@@ -26,13 +26,18 @@ nav#hamburger {
     .hamburger-line#top {
       transform:
         translateY(10px)
-        rotate(225deg);
+        rotate(225deg)
+        scaleX(1.4142);
+
+      // Scale by sqrt(2) to convert from
+      // horizontal width to diagonal length.
     }
 
     .hamburger-line#bottom {
       transform:
         translateY(-10px)
-        rotate(-225deg);
+        rotate(-225deg)
+        scaleX(1.4142);
     }
 
     .hamburger-line#middle {
