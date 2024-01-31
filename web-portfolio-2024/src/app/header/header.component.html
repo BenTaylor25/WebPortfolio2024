@@ -1,11 +1,11 @@
 
 <h1>Ben Taylor</h1>
 
-<!-- Mobile -->
+<!-- Hamburger Icon -->
 <div
   id="hamburger"
   (click)="toggleHamburger()"
-  [ngClass]="{'active': isHamburgerActive}">
+  [ngClass]="{'hidden': !isMobile, 'active': isHamburgerActive}">
 
   <div class="hamburger-line" id="top"></div>
   <div class="hamburger-line" id="middle"></div>
@@ -13,8 +13,9 @@
 
 </div>
 
+<!-- Hamburger Menu -->
 <nav
-  [ngClass]="{'active': isHamburgerActive}">
+  [ngClass]="{'hidden': !isMobile, 'active': isHamburgerActive}">
 
   <section>
     <a>Bio</a>
@@ -22,5 +23,11 @@
     <a>Projects</a>
     <a>Education</a>
   </section>
+
+</nav>
+
+<!-- Standard Nav Menu -->
+<nav
+  [ngClass]="{'hidden': isMobile}">
 
 </nav>
