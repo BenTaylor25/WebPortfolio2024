@@ -1,7 +1,10 @@
 @import 'src/theme';
 
 body {
-  width: 100vw;
+  width: 100dvw;
+  // 100dvw width + vertical scroll bar causes horizontal scroll bar.
+  // scale back with max-width: 100%.
+  max-width: 100%;
   min-height:100dvh;
   margin: 0;
   background-color: $theme-background;
