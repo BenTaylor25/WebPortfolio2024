@@ -1,123 +1,131 @@
 @import "src/theme";
 
-a {
-  width: 100%;
-
-  h1 {
-    position: fixed;
-    top: 0;
-    z-index: 10;
-    font-size: 3rem;
-    margin: 0;
-    padding: 1rem;
-    color: $theme-text;
-    background-color: $theme-background;
-
-    &:hover {
-      cursor: pointer;
-      background-color: $theme-accent;
-    }
-  }
-}
-
-div#hamburger {
+header {
   position: fixed;
-  z-index: 10;
-  cursor: pointer;
-  top: 1.5rem;
-  right: 1.5rem;
-
-  .hamburger-line {
-    width: 26px;
-    height: 2px;
-    margin: 8px;
-    background-color: $theme-text;
-    position: relative;
-
-    transition-duration: 1s;
-  }
-
-  &.active {
-    .hamburger-line#top {
-      transform:
-        translateY(10px)
-        rotate(225deg)
-        scaleX(1.4142);
-
-      // Scale by sqrt(2) to convert from
-      // horizontal width to diagonal length.
-    }
-
-    .hamburger-line#bottom {
-      transform:
-        translateY(-10px)
-        rotate(-225deg)
-        scaleX(1.4142);
-    }
-
-    .hamburger-line#middle {
-      transform: scaleX(0);
-    }
-  }
-}
-
-nav#mobile-nav {
-  overflow-x: hidden;
-  transform: scaleX(0);
-  transition: 1s;
-
-  &.active {
-    display: block;
-    transform: scaleX(1);
-  }
-
-  position: fixed;
-  background-color: $theme-secondary;
-  z-index: 5;
   top: 0;
-  width: 100vw;
-  height: 100dvh;
-
-  section {
-    position: fixed;
-    margin-top: 5rem;
-    height: 60%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-
-    a {
-      font-size: 3rem;
-    }
-  }
-}
-
-nav#standard-nav {
-  width: 100%;
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
+  align-items: center;
+  width: 100dvw;
+  max-width: 100%;
+  background-color: $theme-background;
 
-  section {
-    height: 100%;
-    z-index: 15;
-    display: flex;
+  a {
+    right: 10rem;
 
-    a {
-      cursor: pointer;
-      font-size: 1.5rem;
-      padding: 1.75rem;
-      width: 100%;
-      height: 100%;
+    h1 {
+      top: 0;
+      z-index: 10;
+      font-size: 3rem;
+      margin: 0;
+      padding: 1rem;
       color: $theme-text;
 
       &:hover {
+        cursor: pointer;
         background-color: $theme-accent;
       }
     }
   }
-}
 
-.hidden {
-  display: none !important;
+  div#hamburger {
+    z-index: 10;
+    cursor: pointer;
+    top: 1.5rem;
+    right: 1.5rem;
+
+    .hamburger-line {
+      width: 26px;
+      height: 2px;
+      margin: 8px;
+      background-color: $theme-text;
+      position: relative;
+
+      transition-duration: 1s;
+    }
+
+    &.active {
+      .hamburger-line#top {
+        transform:
+          translateY(10px)
+          rotate(225deg)
+          scaleX(1.4142);
+
+        // Scale by sqrt(2) to convert from
+        // horizontal width to diagonal length.
+      }
+
+      .hamburger-line#bottom {
+        transform:
+          translateY(-10px)
+          rotate(-225deg)
+          scaleX(1.4142);
+      }
+
+      .hamburger-line#middle {
+        transform: scaleX(0);
+      }
+    }
+  }
+
+  nav#mobile-nav {
+    overflow-x: hidden;
+    transform: scaleX(0);
+    transition: 1s;
+
+    &.active {
+      display: block;
+      transform: scaleX(1);
+    }
+
+    position: fixed;
+    background-color: $theme-secondary;
+    z-index: 5;
+    top: 0;
+    width: 100vw;
+    height: 100dvh;
+
+    section {
+      position: fixed;
+      margin-top: 5rem;
+      height: 60%;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+
+      a {
+        font-size: 3rem;
+      }
+    }
+  }
+
+  nav#standard-nav {
+    top: 0;
+    display: flex;
+    justify-content: right;
+
+    section {
+      height: 100%;
+      z-index: 15;
+      display: flex;
+
+      a {
+        cursor: pointer;
+        font-size: 1.5rem;
+        padding: 1.75rem;
+        width: 100%;
+        height: 100%;
+        color: $theme-text;
+
+        &:hover {
+          background-color: $theme-accent;
+        }
+      }
+    }
+  }
+
+  .hidden {
+    display: none !important;
+  }
 }

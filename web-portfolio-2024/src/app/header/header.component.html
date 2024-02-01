@@ -1,45 +1,47 @@
 
-<a>
-  <h1>Ben Taylor</h1>
-</a>
+<header>
+  <a>
+    <h1>Ben Taylor</h1>
+  </a>
 
-<!-- Hamburger Icon -->
-<div
-  id="hamburger"
-  (click)="toggleHamburger()"
-  [ngClass]="{'hidden': !isMobile, 'active': isHamburgerActive}">
+  <!-- Hamburger Icon -->
+  <div
+    id="hamburger"
+    (click)="toggleHamburger()"
+    [ngClass]="{'hidden': !isMobile, 'active': isHamburgerActive}">
 
-  <div class="hamburger-line" id="top"></div>
-  <div class="hamburger-line" id="middle"></div>
-  <div class="hamburger-line" id="bottom"></div>
+    <div class="hamburger-line" id="top"></div>
+    <div class="hamburger-line" id="middle"></div>
+    <div class="hamburger-line" id="bottom"></div>
 
-</div>
+  </div>
 
-<!-- Hamburger Menu -->
-<nav
-  id="mobile-nav"
-  [ngClass]="{'hidden': !isMobile, 'active': isHamburgerActive}">
+  <!-- Hamburger Menu -->
+  <nav
+    id="mobile-nav"
+    [ngClass]="{'hidden': !isMobile, 'active': isHamburgerActive}">
 
-  <section>
-    <a>Bio</a>
-    <a>Work</a>
-    <a>Projects</a>
-    <a>Education</a>
-  </section>
+    <section>
+      <a>Bio</a>
+      <a>Work</a>
+      <a>Projects</a>
+      <a>Education</a>
+    </section>
 
-</nav>
+  </nav>
 
-<!-- Standard Nav Menu -->
-<nav
-  id="standard-nav"
-  [ngClass]="{'hidden': isMobile}">
+  <!-- Standard Nav Menu -->
+  <nav
+    id="standard-nav"
+    [ngClass]="{'hidden': isMobile}">
 
-  <!-- TODO: Refactor nav above to switch between these views. -->
-  <section>
-    <a>Bio</a>
-    <a>Work</a>
-    <a>Projects</a>
-    <a>Education</a>
-  </section>
+    <!-- TODO: Refactor nav above to switch between these views. -->
+    <section>
+      <a>Bio</a>
+      <a>Work</a>
+      <a>Projects</a>
+      <a>Education</a>
+    </section>
 
-</nav>
+  </nav>
+</header>
