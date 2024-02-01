@@ -13,7 +13,7 @@ export class ResponsiveService {
   }
 
   private checkScreenWidth(): void {
-    const isMobile = window.innerWidth < 600;
+    const isMobile = window.innerWidth < 875;
     this.isMobile.next(isMobile);
   }
 
