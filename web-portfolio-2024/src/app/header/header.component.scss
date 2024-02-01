@@ -53,7 +53,7 @@ div#hamburger {
   }
 }
 
-nav {
+nav#mobile-nav {
   overflow-x: hidden;
   transform: scaleX(0);
   transition: 1s;
@@ -85,6 +85,25 @@ nav {
   }
 }
 
+nav#standard-nav {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+
+  section {
+    z-index: 15;
+    display: flex;
+    font-size: 1.5rem;
+    padding: 1rem;
+    padding-top: 1.75rem;
+    gap: 1rem;
+
+    a {
+      color: $theme-text;
+    }
+  }
+}
+
 .hidden {
-  display: none;
+  display: none !important;
 }

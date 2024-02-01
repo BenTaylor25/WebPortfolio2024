@@ -15,6 +15,7 @@
 
 <!-- Hamburger Menu -->
 <nav
+  id="mobile-nav"
   [ngClass]="{'hidden': !isMobile, 'active': isHamburgerActive}">
 
   <section>
@@ -28,6 +29,15 @@
 
 <!-- Standard Nav Menu -->
 <nav
+  id="standard-nav"
   [ngClass]="{'hidden': isMobile}">
+
+  <!-- TODO: Refactor nav above to switch between these views. -->
+  <section>
+    <a>Bio</a>
+    <a>Work</a>
+    <a>Projects</a>
+    <a>Education</a>
+  </section>
 
 </nav>
