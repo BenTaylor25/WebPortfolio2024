@@ -12,7 +12,6 @@ import { EducationComponent } from './main-page/education/education.component';
 export const routingComponents = [
   HeaderComponent,
   MainPageComponent,
-  HeroComponent,
   BioComponent,
   WorkComponent,
   ProjectsComponent,
