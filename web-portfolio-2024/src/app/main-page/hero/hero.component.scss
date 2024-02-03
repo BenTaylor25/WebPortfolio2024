@@ -1,0 +1,14 @@
+
+section#hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  mat-grid-list {
+    width: 70%;
+
+    mat-grid-tile {
+      background-color: lightblue;
+    }
+  }
+}

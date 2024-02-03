@@ -9,6 +9,7 @@ header {
   width: 100dvw;
   max-width: 100%;
   background-color: $theme-background;
+  z-index: 10;
 
   a {
     right: 10rem;
