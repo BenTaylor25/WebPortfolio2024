@@ -8,7 +8,11 @@ section#hero {
     width: 70%;
 
     mat-grid-tile {
-      background-color: lightblue;
+
+      ::ng-deep .mat-grid-tile-content {
+        display: flex;
+        flex-direction: column;
+      }
 
       img {
         max-width: 100%;
