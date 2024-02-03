@@ -7,6 +7,20 @@ section#hero {
   mat-grid-list {
     width: 70%;
 
+    &.single-column {
+      width: 95%;
+
+      mat-grid-tile {
+        h2 {
+          font-size: min(10vw, 3.25rem);
+        }
+
+        p {
+          font-size: min(5vw, 1.5rem);
+        }
+      }
+    }
+
     mat-grid-tile {
 
       ::ng-deep .mat-grid-tile-content {

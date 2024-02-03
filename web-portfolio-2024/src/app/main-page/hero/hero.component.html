@@ -1,6 +1,19 @@
 
 <section id="hero">
-  <mat-grid-list cols="2" rowHeight="2:1">
+
+  <!-- Refactor to use flex-layout? -->
+  <!-- https://github.com/angular/flex-layout/wiki -->
+  <!--
+    flex-layout is a more popular alternative to
+    mat-grid-list and it gives you more control of
+    individual row heights. However I think I'm okay
+    with the row heights now.
+  -->
+
+  <mat-grid-list
+    class="{{columnCount == 1 ? 'single-column' : ''}}"
+    cols="{{columnCount}}"
+    rowHeight="2:1">
 
     <mat-grid-tile>
       <h2>Ben Taylor</h2>
