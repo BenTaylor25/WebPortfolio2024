@@ -5,6 +5,7 @@ import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeroComponent } from './main-page/hero/hero.component';
+import { IconComponent } from './icon/icon.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { HeroComponent } from './main-page/hero/hero.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    HeroComponent
+    HeroComponent,
+    IconComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

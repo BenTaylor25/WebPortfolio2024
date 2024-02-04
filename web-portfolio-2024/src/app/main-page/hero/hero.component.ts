@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { ResponsiveService } from 'src/app/responsive.service';
+import { IconComponent } from 'src/app/icon/icon.component';
 
 @Component({
   selector: 'app-hero',
@@ -8,7 +9,8 @@ import { ResponsiveService } from 'src/app/responsive.service';
   styleUrls: ['./hero.component.scss'],
   standalone: true,
   imports: [
-    MatGridListModule
+    MatGridListModule,
+    IconComponent
   ]
 })
 export class HeroComponent {
