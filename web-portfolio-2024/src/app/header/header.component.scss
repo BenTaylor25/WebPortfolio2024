@@ -88,7 +88,7 @@ header {
 
     section {
       position: fixed;
-      margin-top: 5rem;
+      margin-top: 8rem;
       height: 60%;
 
       display: flex;
@@ -96,8 +96,12 @@ header {
       justify-content: space-around;
 
       a {
-        color: $theme-text;
         font-size: 3rem;
+        color: $theme-text;
+        width: 100dvw;
+        height: 100%;
+        display: flex;
+        justify-content: center;
       }
     }
   }
