@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { ResponsiveService } from 'src/app/responsive.service';
 import { IconComponent } from 'src/app/icon/icon.component';
+import { GITHUB_LINK, LINKEDIN_LINK, YOUTUBE_LINK } from 'src/constants';
 
 @Component({
   selector: 'app-hero',
@@ -15,6 +16,9 @@ import { IconComponent } from 'src/app/icon/icon.component';
 })
 export class HeroComponent {
   columnCount = 2;
+  linkedinLink = LINKEDIN_LINK;
+  githubLink = GITHUB_LINK;
+  youtubeLink = YOUTUBE_LINK
 
   constructor(private responsiveService: ResponsiveService) {}
 
