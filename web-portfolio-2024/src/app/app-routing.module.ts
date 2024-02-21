@@ -3,8 +3,6 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { HeaderComponent } from './header/header.component';
 import { MainPageComponent } from './main-page/main-page.component';
-import { HeroComponent } from './main-page/hero/hero.component';
-import { BioComponent } from './main-page/bio/bio.component';
 import { WorkComponent } from './main-page/work/work.component';
 import { ProjectsComponent } from './main-page/projects/projects.component';
 import { EducationComponent } from './main-page/education/education.component';
@@ -12,7 +10,6 @@ import { EducationComponent } from './main-page/education/education.component';
 export const routingComponents = [
   HeaderComponent,
   MainPageComponent,
-  BioComponent,
   WorkComponent,
   ProjectsComponent,
   EducationComponent
