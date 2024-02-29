@@ -27,20 +27,14 @@ section#bio {
         flex-direction: column;
       }
 
-      #occupation-container, #technologies-container {
-        text-align: center;
-
-        * {
-          margin: 0;
-        }
-      }
+      text-align: center;
 
       h2 {
-        font-size: min(4vw, 3.5rem);
+        font-size: min(2.5vw, 2.5rem);
       }
 
       p {
-        font-size: min(2.5vw, 2rem);
+        font-size: min(1.5vw, 1.5rem);
       }
     }
   }
