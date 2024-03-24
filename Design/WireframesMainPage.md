@@ -30,6 +30,8 @@ for further back in my education history.
 
 ### Desktop
 ![image](https://github.com/BenTaylor25/WebPortfolio2024/assets/97246704/1d2cc456-2fa4-409b-a308-38d033212b7f)
+![image](https://github.com/BenTaylor25/WebPortfolio2024/assets/97246704/7c156cd4-0c28-44c1-8ae7-3a9f4ab8e460)
+
 
 ### Mobile
 ![image](https://github.com/BenTaylor25/WebPortfolio2024/assets/97246704/52257881-9fb0-491d-8ae7-beb409103c1c)
