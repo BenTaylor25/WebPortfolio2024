@@ -1,1 +1,8 @@
-<p>work-entry works!</p>
+
+<article>
+  <img [src]="logoUrl" [alt]="imageAlt" />
+  <h2>{{company}}</h2>
+  <h3>{{role}}</h3>
+  <p>{{dates}}</p>
+  <ng-content />
+</article>
