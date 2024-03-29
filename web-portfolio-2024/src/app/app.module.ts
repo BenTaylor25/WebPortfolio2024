@@ -7,12 +7,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeroComponent } from './main-page/hero/hero.component';
 import { BioComponent } from './main-page/bio/bio.component';
 import { WorkComponent } from './main-page/work/work.component';
+import { WorkEntryComponent } from './main-page/work/work-entry/work-entry.component';
 import { IconComponent } from './icon/icon.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    routingComponents
+    routingComponents,
   ],
   imports: [
     BrowserModule,
@@ -21,6 +22,7 @@ import { IconComponent } from './icon/icon.component';
     HeroComponent,
     BioComponent,
     WorkComponent,
+    WorkEntryComponent,
     IconComponent
   ],
   providers: [],
