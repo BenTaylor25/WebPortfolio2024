@@ -7,10 +7,13 @@ import { Component, Input } from '@angular/core';
   standalone: true,
 })
 export class WorkEntryComponent {
+  @Input() category: string = "unknown title";
   @Input() company: string = "unknown company";
   @Input() role: string = "unknown role";
   @Input() logoUrl: string = "";
   @Input() dates: string = "(unknown - unknown)";
 
-  imageAlt = `${this.company} ${this.role}`;
+  get imageAlt(): string {
+    return `${this.company} ${this.role}`;
+  }
 }
