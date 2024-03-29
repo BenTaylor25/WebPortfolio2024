@@ -1,0 +1,26 @@
+// Scaling is really weird - revisit later.
+
+article {
+  padding-left: 5%;
+  width: 85%;
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .companyNameAndLogo {
+    display: flex;
+
+    img {
+      width: 15%;
+      height: 15%;
+      right: 10%;
+      margin-right: 5%;
+    }
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+}
