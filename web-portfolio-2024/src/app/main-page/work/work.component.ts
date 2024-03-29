@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { MatGridListModule } from '@angular/material/grid-list';
+
 import { ResponsiveService } from 'src/app/responsive.service';
+import { WorkEntryComponent } from './work-entry/work-entry.component';
 
 @Component({
   selector: 'app-work',
@@ -8,6 +10,7 @@ import { ResponsiveService } from 'src/app/responsive.service';
   styleUrls: ['./work.component.scss'],
   standalone: true,
   imports: [
+    WorkEntryComponent,
     MatGridListModule
   ]
 })
