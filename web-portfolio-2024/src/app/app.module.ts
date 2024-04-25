@@ -9,6 +9,7 @@ import { BioComponent } from './main-page/bio/bio.component';
 import { WorkComponent } from './main-page/work/work.component';
 import { WorkEntryComponent } from './main-page/work/work-entry/work-entry.component';
 import { ProjectsComponent } from './main-page/projects/projects.component';
+import { ProjectEntryComponent } from './main-page/projects/project-entry/project-entry.component';
 import { EducationComponent } from './main-page/education/education.component';
 import { IconComponent } from './icon/icon.component';
 
@@ -26,6 +27,7 @@ import { IconComponent } from './icon/icon.component';
     WorkComponent,
     WorkEntryComponent,
     ProjectsComponent,
+    ProjectEntryComponent,
     EducationComponent,
     IconComponent
   ],
