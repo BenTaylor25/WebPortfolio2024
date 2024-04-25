@@ -8,6 +8,8 @@ import { HeroComponent } from './main-page/hero/hero.component';
 import { BioComponent } from './main-page/bio/bio.component';
 import { WorkComponent } from './main-page/work/work.component';
 import { WorkEntryComponent } from './main-page/work/work-entry/work-entry.component';
+import { ProjectsComponent } from './main-page/projects/projects.component';
+import { EducationComponent } from './main-page/education/education.component';
 import { IconComponent } from './icon/icon.component';
 
 @NgModule({
@@ -23,6 +25,8 @@ import { IconComponent } from './icon/icon.component';
     BioComponent,
     WorkComponent,
     WorkEntryComponent,
+    ProjectsComponent,
+    EducationComponent,
     IconComponent
   ],
   providers: [],
