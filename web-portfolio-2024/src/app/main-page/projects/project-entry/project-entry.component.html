@@ -1,1 +1,27 @@
-<p>project-entry works!</p>
+
+<article>
+
+  <mat-grid-list
+    cols="{{columnCount}}">
+
+    <mat-grid-tile>
+
+      <a href="{{githubLink}}">
+        <h1>{{projectName}}</h1>
+      </a>
+
+      <h2>{{technologies}}</h2>
+
+      <ng-content />
+
+    </mat-grid-tile>
+
+    <mat-grid-tile>
+
+      <img src="{{imgPath}}" />
+
+    </mat-grid-tile>
+
+  </mat-grid-list>
+
+</article>

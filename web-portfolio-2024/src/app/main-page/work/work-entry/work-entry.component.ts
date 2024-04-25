@@ -4,7 +4,7 @@ import { Component, Input } from '@angular/core';
   selector: 'app-work-entry',
   templateUrl: './work-entry.component.html',
   styleUrls: ['./work-entry.component.scss'],
-  standalone: true,
+  standalone: true
 })
 export class WorkEntryComponent {
   @Input() category: string = "unknown title";
