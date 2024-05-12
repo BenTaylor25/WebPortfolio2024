@@ -10,5 +10,18 @@ article {
     font-size: 1.5rem;
   }
 
+  .project-entry {
+
+    .project-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .project-image {
+      width: 100%;
+    }
+
+  }
+
 }
 

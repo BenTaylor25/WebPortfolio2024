@@ -2,23 +2,26 @@
 <article>
 
   <mat-grid-list
-    cols="{{columnCount}}">
+    cols="{{columnCount}}"
+    class="project-entry">
 
     <mat-grid-tile>
+      <div class="project-info">
 
-      <a href="{{githubLink}}">
-        <h1>{{projectName}}</h1>
-      </a>
+        <a href="{{githubLink}}">
+          <h1>{{projectName}}</h1>
+        </a>
 
-      <h2>{{technologies}}</h2>
+        <h2>{{technologies}}</h2>
 
-      <ng-content />
+        <ng-content />
 
+      </div>
     </mat-grid-tile>
 
     <mat-grid-tile>
 
-      <img src="{{imgPath}}" />
+      <img src="{{imgPath}}" class="project-image" />
 
     </mat-grid-tile>
 
