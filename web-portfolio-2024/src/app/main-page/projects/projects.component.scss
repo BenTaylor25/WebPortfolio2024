@@ -1,0 +1,14 @@
+@import "src/theme";
+
+section#projects {
+  display: flex;
+  justify-content: center;
+
+  mat-grid-list {
+    width: 90%;
+    background-color: $theme-secondary;
+    border-radius: 15px;
+  }
+
+}
+
