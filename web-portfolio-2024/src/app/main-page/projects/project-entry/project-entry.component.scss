@@ -12,6 +12,14 @@ article {
 
   .project-entry {
 
+    /*
+      There is a hidden Angular Material element that I can't access
+      here that is applying `justify-content: center` to my projects
+      and I can't select it to disable it?!..
+
+      Event `* {}` didn't work.
+    */
+
     .project-info {
       display: flex;
       flex-direction: column;
